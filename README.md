@@ -1,4 +1,4 @@
-🔗ABOUT THE PROJECT
+## 🔗ABOUT THE PROJECT
 
 In a world where technological advancements drive societal progress, the plight of visually 
 impaired individuals navigating their surroundings remains a poignant challenge. In response, 
@@ -14,7 +14,7 @@ testament to the transformative power of technology in fostering a more equitabl
 inclusive society
 
 
-🔗INSPIRATION💡
+## 🔗INSPIRATION💡
 
 In a world propelled by technological advancements, the challenges faced by visually impaired individuals in navigating their surroundings persist as a poignant issue. In response, we introduce a groundbreaking project situated at the convergence of artificial intelligence and assistive technology, harnessing the formidable capabilities of the YOLO (You Only Look Once) object detection algorithm.
 
@@ -23,7 +23,7 @@ Our innovative solution endeavors to revolutionize the daily experiences of the 
 With the potential to significantly enhance accessibility and inclusivity, our project serves as a testament to the transformative power of technology in fostering a more equitable and inclusive society.
 
 
-🔗SOCIAL IMPACT
+## 🔗SOCIAL IMPACT💫
 
 
 The social impact of a project like real-time object detection for the visually impaired using YOLO (You Only Look Once) is profound and multifaceted. Here are some key aspects of its social impact:
@@ -45,13 +45,11 @@ The social impact of a project like real-time object detection for the visually 
 8.Overall, the social impact of this project extends beyond the individuals directly benefiting from the technology, influencing attitudes, policies, and practices to create a more inclusive and equitable society for people of all abilities.
 
 
-🔗BUILT WITH
+## 🔗BUILT WITH🦾
 
 The social impact of a project like real-time object detection for the visually impaired using YOLO (You Only Look Once) is profound and multifaceted. Here are some key aspects of its social impact:
-
-Enhanced Independence: By providing real-time auditory feedback about their surroundings, the visually impaired gain increased independence in navigating their environment. This technology enables them to identify and avoid obstacles, locate objects, and safely maneuver through various spaces with greater confidence.
-
-Improved Safety: The ability to detect obstacles and hazards in real-time significantly enhances the safety of visually impaired individuals, reducing the risk of accidents and injuries. This technology can alert users to potential dangers such as oncoming vehicles, obstacles on sidewalks, or changes in terrain.
+ Enhanced Independence: By providing real-time auditory feedback about their surroundings, the visually impaired gain increased independence in navigating their environment. This technology enables them to identify and avoid obstacles, locate objects, and safely maneuver through various spaces with greater confidence.
+ Improved Safety: The ability to detect obstacles and hazards in real-time significantly enhances the safety of visually impaired individuals, reducing the risk of accidents and injuries. This technology can alert users to potential dangers such as oncoming vehicles, obstacles on sidewalks, or changes in terrain. 
 
 Greater Inclusion: Access to technology that facilitates independent navigation promotes greater inclusion of visually impaired individuals in various aspects of society. It enables them to participate more fully in activities such as commuting, shopping, socializing, and accessing public spaces.
 
@@ -68,7 +66,7 @@ Intel oneAPI has its own advantage which helps the code to have better time and 
 Overall, the social impact of this project extends beyond the individuals directly benefiting from the technology, influencing attitudes, policies, and practices to create a more inclusive and equitable society for people of all abilities.
 
 
-🔗Technology Stack:
+## 🔗Technology Stack:🤖
 
 
 YOLO (You Only Look Once) for real-time object detection
@@ -78,11 +76,11 @@ Speech synthesis libraries (e.g., pyttsx3, gTTS) for converting text to speech
 Hardware components such as cameras and microphones for input/output.
 
 
-🔗Intel® oneAPI
+## 🔗Intel® oneAPI
 Intel® OneAPI is a comprehensive development platform for building high-performance, cross-architecture applications. It provides a unified programming model, tools, and libraries that allow developers to optimize their applications for Intel® CPUs, GPUs, FPGAs, and other hardware. Intel® OneAPI includes support for popular programming languages like C++, Python, and Fortran, as well as frameworks for deep learning, high-performance computing, and data analytics. With Intel® OneAPI, developers can build applications that can run on a variety of hardware platforms, and take advantage of the performance benefits of Intel® architectures.
 
 
-🔗USE OF oneAPI in our project
+## 🔗USE OF oneAPI in our project
 
 
 Intel® oneAPI Data Analytics Library (oneDAL)
@@ -116,19 +114,20 @@ Integration with Intel DevCloud: Intel's DevCloud provides access to a wide rang
 
 Overall, the use of Intel oneAPI in the project enables developers to harness the full potential of Intel hardware for accelerating real-time object detection using YOLO, ultimately enhancing the accessibility and usability of the system for visually impaired individuals.
 
-🔗PERFORMANCE COMPARISON
+## 🔗PERFORMANCE COMPARISON
 This repository contains a performance comparison between two linear regression implementations: normal linear regression using scikit-learn and OneDAL linear regression using daal4py. The comparison aims to evaluate the time efficiency of both approaches in training a linear regression model on synthetic data. By measuring the execution time of each algorithm, we can gain insights into the performance characteristics of traditional versus accelerated linear regression techniques. This comparison serves as a valuable resource for understanding the potential speedup and efficiency gains offered by utilizing Intel's OneDAL library for linear regression tasks, especially in scenarios where performance optimization is critical.
-![Screenshot 2024-03-10 074331](https://github.com/Faactos/Real-Time-Object-Detection-For-Visually-Impaired/assets/162334931/a892def5-7fbf-48a5-94b1-1e5798ab2cc4)
+![Screenshot 2024-03-10 074331](![Screenshot 2024-03-10 073658](https://github.com/Faactos/Real-Time-Object-Detection-For-Visually-Impaired/assets/162334931/a023d273-0193-48c0-8806-10e100799f74)
+)
 
 
 
 
 
-🔗WHAT IT DOES
+## 🔗WHAT IT DOES🤔
 If you're referring to the paragraph I provided earlier, it serves as a concise summary of the performance comparison between normal linear regression using scikit-learn and OneDAL linear regression using daal4py. This paragraph outlines the objective of the comparison, which is to evaluate the time efficiency of both approaches in training a linear regression model on synthetic data. It also highlights the significance of the comparison in understanding the potential performance gains offered by utilizing Intel's OneDAL library for linear regression tasks. Overall, the paragraph provides a clear overview of the purpose and importance of the performance comparison.
 
 
-🔗HOW WE BUILT IT
+## 🔗HOW WE BUILT IT
 The paragraph was constructed by systematically organizing the key components of the performance comparison. Here's a breakdown of how it was built:
 
 Introduction: The paragraph starts with a brief introduction to the purpose of the comparison. It states that the repository contains a performance comparison between two linear regression implementations: normal linear regression using scikit-learn and OneDAL linear regression using daal4py.
@@ -148,7 +147,7 @@ By carefully structuring the paragraph in this manner, it effectively communicat
 
 
 
-🔗WHAT WE LEARNED
+## 🔗WHAT WE LEARNED😊
 From the performance comparison between normal linear regression using scikit-learn and OneDAL linear regression using daal4py, several key insights were gained:
 
 Execution Time Differences: The comparison allowed us to observe the significant differences in execution time between the two linear regression implementations. We learned that OneDAL linear regression, leveraging Intel's optimized libraries, often exhibits faster execution times compared to traditional linear regression approaches like scikit-learn.
