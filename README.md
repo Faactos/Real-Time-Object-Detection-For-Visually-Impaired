@@ -117,14 +117,55 @@ Integration with Intel DevCloud: Intel's DevCloud provides access to a wide rang
 Overall, the use of Intel oneAPI in the project enables developers to harness the full potential of Intel hardware for accelerating real-time object detection using YOLO, ultimately enhancing the accessibility and usability of the system for visually impaired individuals.
 
 🔗PERFORMANCE COMPARISON
+This repository contains a performance comparison between two linear regression implementations: normal linear regression using scikit-learn and OneDAL linear regression using daal4py. The comparison aims to evaluate the time efficiency of both approaches in training a linear regression model on synthetic data. By measuring the execution time of each algorithm, we can gain insights into the performance characteristics of traditional versus accelerated linear regression techniques. This comparison serves as a valuable resource for understanding the potential speedup and efficiency gains offered by utilizing Intel's OneDAL library for linear regression tasks, especially in scenarios where performance optimization is critical.
+![Screenshot 2024-03-10 074331](https://github.com/Faactos/Real-Time-Object-Detection-For-Visually-Impaired/assets/162334931/a892def5-7fbf-48a5-94b1-1e5798ab2cc4)
+
+
+
+
 
 🔗WHAT IT DOES
+If you're referring to the paragraph I provided earlier, it serves as a concise summary of the performance comparison between normal linear regression using scikit-learn and OneDAL linear regression using daal4py. This paragraph outlines the objective of the comparison, which is to evaluate the time efficiency of both approaches in training a linear regression model on synthetic data. It also highlights the significance of the comparison in understanding the potential performance gains offered by utilizing Intel's OneDAL library for linear regression tasks. Overall, the paragraph provides a clear overview of the purpose and importance of the performance comparison.
 
 
 🔗HOW WE BUILT IT
+The paragraph was constructed by systematically organizing the key components of the performance comparison. Here's a breakdown of how it was built:
+
+Introduction: The paragraph starts with a brief introduction to the purpose of the comparison. It states that the repository contains a performance comparison between two linear regression implementations: normal linear regression using scikit-learn and OneDAL linear regression using daal4py.
+
+Objective Statement: Following the introduction, the paragraph presents the objective of the comparison. It aims to evaluate the time efficiency of both approaches in training a linear regression model on synthetic data. This clarifies the specific goal of the comparison, which is to measure the execution time of each algorithm.
+
+Significance Statement: The paragraph then emphasizes the significance of the comparison. It highlights the importance of understanding the potential performance gains offered by utilizing Intel's OneDAL library for linear regression tasks, especially in scenarios where performance optimization is critical. This helps contextualize the relevance of the comparison in the broader context of linear regression optimization.
+
+Summary and Conclusion: Finally, the paragraph wraps up by summarizing the content discussed. It serves as a conclusion by reiterating the purpose of the comparison and its relevance in evaluating the time efficiency of different linear regression implementations.
+
+By carefully structuring the paragraph in this manner, it effectively communicates the objective, significance, and conclusion of the performance comparison in a clear and concise manner.
+
+
+
+
+
+
 
 
 🔗WHAT WE LEARNED
+From the performance comparison between normal linear regression using scikit-learn and OneDAL linear regression using daal4py, several key insights were gained:
+
+Execution Time Differences: The comparison allowed us to observe the significant differences in execution time between the two linear regression implementations. We learned that OneDAL linear regression, leveraging Intel's optimized libraries, often exhibits faster execution times compared to traditional linear regression approaches like scikit-learn.
+
+Performance Optimization Potential: The comparison highlighted the potential for performance optimization offered by utilizing specialized libraries such as OneDAL. By leveraging hardware-specific optimizations and parallel processing capabilities, OneDAL linear regression can achieve faster training times, making it a compelling option for scenarios where speed is critical.
+
+Library Selection Considerations: Understanding the performance characteristics of different linear regression implementations enables better-informed decisions when selecting libraries for specific tasks. Depending on the requirements of the application and available hardware resources, developers can choose between scikit-learn and OneDAL to achieve optimal performance.
+
+Broader Implications: The comparison underscores the broader implications of leveraging optimized libraries for machine learning tasks. Beyond linear regression, similar performance gains may be achievable in other machine learning algorithms by adopting specialized libraries tailored for efficient computation, highlighting the importance of considering performance optimizations in algorithm selection.
+
+Overall, the performance comparison provided valuable insights into the time efficiency and performance optimization potential of linear regression implementations, contributing to a deeper understanding of the practical considerations involved in algorithm selection and optimization for machine learning tasks.
+
+
+
+
+
+
 
 
 
